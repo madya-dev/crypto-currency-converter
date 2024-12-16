@@ -104,7 +104,7 @@
 		if (validInputRegex.test(inputFromValue)) {
 			// Check for decimals and prevent further input if the limit is exceeded
 			const [integerPart, decimalPart] = inputFromValue.split(
-				preferredFormat === 'comma' ? ',' : '.'
+				$preferredFormat === 'comma' ? ',' : '.'
 			);
 			const allowedDecimals = decimals[fromCurrency];
 
