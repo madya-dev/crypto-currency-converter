@@ -114,6 +114,9 @@
 			}
 
 			autoConvert();
+		} else {
+			inputFromValue = '';
+			inputToValue = '';
 		}
 	};
 </script>
