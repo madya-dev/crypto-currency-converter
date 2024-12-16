@@ -178,7 +178,7 @@
 					bind:value={inputToValue}
 					disabled
 					placeholder="0"
-					class="w-full mt-3 p-3 rounded-md bg-gray-700 text-gray-400 focus:outline-none"
+					class="w-full mt-3 p-3 rounded-md bg-gray-700 text-white focus:outline-none"
 				/>
 			</div>
 		</div>
